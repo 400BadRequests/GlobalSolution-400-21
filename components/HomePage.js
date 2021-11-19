@@ -34,7 +34,7 @@ export default function HomePage({ navigation }) {
               width: "100%",
               justifyContent: "flex-end",
             }}
-            onPress={() => navigation.navigate("HelpPage")}
+            onPress={() => navigation.navigate("LoginPage")}
           >
             <Text style={styles.link}>AJUDAR AGORA</Text>
             <View style={styles.circleLink}>
